@@ -1,0 +1,501 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,churn
+0001-XYZ,Male,0,Yes,Yes,48,Month-to-month,Yes,Bank transfer,54.97,2630.01,No
+0002-XYZ,Female,0,No,No,66,Two year,Yes,Mailed check,54.67,3641.74,No
+0003-XYZ,Male,1,No,No,70,Month-to-month,Yes,Electronic check,101.2,7088.79,Yes
+0004-XYZ,Male,0,Yes,No,28,Month-to-month,Yes,Electronic check,97.35,2790.61,Yes
+0005-XYZ,Male,0,Yes,No,26,Month-to-month,Yes,Bank transfer,50.16,1268.32,No
+0006-XYZ,Female,0,Yes,No,25,Month-to-month,Yes,Credit card,109.55,2776.03,Yes
+0007-XYZ,Male,1,No,No,12,Two year,No,Mailed check,113.38,1350.78,No
+0008-XYZ,Male,0,No,No,5,One year,No,Mailed check,52.02,256.89,No
+0009-XYZ,Male,0,No,Yes,48,Two year,Yes,Electronic check,54.73,2631.8,No
+0010-XYZ,Female,0,No,No,37,One year,Yes,Electronic check,69.55,2586.04,No
+0011-XYZ,Male,0,Yes,Yes,44,Month-to-month,Yes,Credit card,112.23,4932.3,No
+0012-XYZ,Male,1,Yes,No,15,Month-to-month,Yes,Credit card,105.88,1598.93,Yes
+0013-XYZ,Male,0,Yes,No,43,Month-to-month,Yes,Credit card,30.05,1371.13,No
+0014-XYZ,Male,0,Yes,Yes,48,Month-to-month,Yes,Bank transfer,58.49,2856.68,No
+0015-XYZ,Female,1,No,No,70,Month-to-month,Yes,Electronic check,74.23,5239.58,No
+0016-XYZ,Male,0,No,No,46,Month-to-month,No,Bank transfer,69.31,3165.34,No
+0017-XYZ,Female,0,Yes,Yes,43,One year,Yes,Electronic check,39.0,1632.48,No
+0018-XYZ,Female,0,Yes,No,21,One year,Yes,Electronic check,104.16,2235.21,No
+0019-XYZ,Female,0,No,No,23,Two year,Yes,Mailed check,86.34,2029.63,No
+0020-XYZ,Male,0,Yes,Yes,47,Two year,Yes,Electronic check,102.12,4873.04,No
+0021-XYZ,Female,0,No,No,15,One year,Yes,Electronic check,104.16,1532.18,Yes
+0022-XYZ,Male,0,Yes,Yes,25,Month-to-month,No,Bank transfer,93.34,2321.99,No
+0023-XYZ,Female,1,Yes,No,36,One year,Yes,Electronic check,63.04,2187.56,No
+0024-XYZ,Female,1,Yes,No,51,Two year,Yes,Bank transfer,79.83,4051.89,No
+0025-XYZ,Female,0,Yes,No,15,Month-to-month,No,Credit card,35.72,585.57,Yes
+0026-XYZ,Female,0,Yes,No,68,Month-to-month,No,Electronic check,86.02,5825.85,No
+0027-XYZ,Female,0,Yes,No,21,Two year,No,Electronic check,37.57,820.93,No
+0028-XYZ,Female,0,Yes,No,13,Month-to-month,Yes,Bank transfer,88.01,1134.57,Yes
+0029-XYZ,Female,0,No,No,19,One year,No,Credit card,42.5,823.71,Yes
+0030-XYZ,Female,0,No,No,34,One year,Yes,Mailed check,31.52,1014.3,No
+0031-XYZ,Male,1,No,Yes,68,Month-to-month,Yes,Credit card,36.2,2465.72,Yes
+0032-XYZ,Male,0,No,No,52,Month-to-month,Yes,Bank transfer,20.2,900.6,No
+0033-XYZ,Female,0,No,Yes,27,Month-to-month,Yes,Credit card,90.44,2432.44,Yes
+0034-XYZ,Female,0,Yes,Yes,29,Month-to-month,Yes,Bank transfer,91.78,2579.96,Yes
+0035-XYZ,Female,0,Yes,Yes,28,Month-to-month,Yes,Bank transfer,70.46,2033.28,Yes
+0036-XYZ,Male,0,No,No,35,Two year,No,Mailed check,35.81,1292.34,No
+0037-XYZ,Female,0,Yes,No,8,Month-to-month,No,Electronic check,28.19,248.84,Yes
+0038-XYZ,Male,0,No,No,16,One year,No,Bank transfer,21.87,426.04,No
+0039-XYZ,Male,0,No,Yes,36,Month-to-month,Yes,Bank transfer,36.24,1257.31,No
+0040-XYZ,Male,0,Yes,No,30,Two year,No,Mailed check,107.3,3306.48,No
+0041-XYZ,Male,0,Yes,No,18,Month-to-month,Yes,Bank transfer,43.67,832.68,Yes
+0042-XYZ,Male,0,Yes,No,2,Month-to-month,No,Electronic check,54.72,97.61,No
+0043-XYZ,Female,0,No,No,49,Two year,Yes,Mailed check,30.32,1542.65,No
+0044-XYZ,Female,0,Yes,No,4,Two year,No,Electronic check,41.79,111.85,Yes
+0045-XYZ,Female,0,No,No,7,Month-to-month,Yes,Electronic check,70.88,454.96,Yes
+0046-XYZ,Female,0,No,No,39,Two year,No,Mailed check,79.56,3072.4,Yes
+0047-XYZ,Female,0,No,Yes,13,Month-to-month,No,Bank transfer,44.04,546.13,No
+0048-XYZ,Male,0,Yes,Yes,31,Month-to-month,Yes,Electronic check,25.66,742.56,No
+0049-XYZ,Female,0,Yes,No,71,Month-to-month,Yes,Electronic check,58.32,4201.96,No
+0050-XYZ,Female,0,No,Yes,63,Month-to-month,No,Electronic check,42.95,2693.03,No
+0051-XYZ,Male,0,Yes,No,56,One year,Yes,Electronic check,41.52,2342.54,No
+0052-XYZ,Female,0,Yes,No,42,Month-to-month,No,Mailed check,114.07,4762.28,Yes
+0053-XYZ,Male,0,Yes,No,61,Month-to-month,Yes,Mailed check,80.4,4813.21,Yes
+0054-XYZ,Female,0,No,No,42,One year,Yes,Credit card,74.57,3145.61,Yes
+0055-XYZ,Male,0,No,No,56,Two year,Yes,Credit card,60.75,3306.16,No
+0056-XYZ,Female,1,Yes,No,36,Month-to-month,Yes,Electronic check,62.04,2229.88,No
+0057-XYZ,Female,0,No,No,68,One year,No,Bank transfer,73.01,4896.18,No
+0058-XYZ,Male,0,Yes,No,7,Month-to-month,Yes,Electronic check,88.25,717.11,Yes
+0059-XYZ,Male,0,Yes,No,54,Two year,Yes,Bank transfer,88.81,4841.33,No
+0060-XYZ,Male,0,Yes,No,1,One year,Yes,Electronic check,36.83,42.11,No
+0061-XYZ,Male,0,Yes,No,44,Two year,Yes,Credit card,69.01,3099.67,No
+0062-XYZ,Male,0,No,No,45,Month-to-month,No,Credit card,60.37,2674.42,Yes
+0063-XYZ,Male,0,No,No,47,Month-to-month,No,Bank transfer,105.31,4976.82,Yes
+0064-XYZ,Male,1,No,No,13,Month-to-month,Yes,Electronic check,81.88,1074.42,Yes
+0065-XYZ,Male,0,Yes,No,22,Month-to-month,No,Bank transfer,72.19,1601.28,Yes
+0066-XYZ,Female,0,Yes,No,21,Month-to-month,No,Credit card,31.31,721.1,No
+0067-XYZ,Female,0,Yes,Yes,9,Two year,Yes,Electronic check,79.35,750.8,Yes
+0068-XYZ,Male,0,No,Yes,26,Month-to-month,No,Electronic check,31.49,833.07,Yes
+0069-XYZ,Female,0,Yes,No,9,Month-to-month,Yes,Bank transfer,53.05,394.67,No
+0070-XYZ,Female,0,No,Yes,15,Two year,Yes,Mailed check,34.0,461.98,No
+0071-XYZ,Female,0,No,Yes,10,Month-to-month,No,Bank transfer,87.82,872.1,No
+0072-XYZ,Female,0,No,Yes,42,Two year,Yes,Credit card,40.21,1693.6,No
+0073-XYZ,Male,0,No,Yes,24,Month-to-month,No,Credit card,58.4,1345.14,No
+0074-XYZ,Female,0,No,Yes,49,Month-to-month,No,Credit card,107.78,5401.61,No
+0075-XYZ,Male,1,No,No,26,Month-to-month,Yes,Credit card,40.02,1116.42,Yes
+0076-XYZ,Female,0,Yes,No,37,Month-to-month,No,Credit card,69.76,2611.41,Yes
+0077-XYZ,Female,0,Yes,No,68,Two year,Yes,Mailed check,61.09,4157.63,No
+0078-XYZ,Female,0,No,No,50,Month-to-month,Yes,Electronic check,21.78,1078.2,No
+0079-XYZ,Male,0,No,Yes,24,One year,No,Bank transfer,97.69,2296.97,No
+0080-XYZ,Female,0,Yes,No,19,Month-to-month,No,Bank transfer,26.77,512.44,Yes
+0081-XYZ,Male,0,No,No,60,Month-to-month,Yes,Credit card,66.48,4001.51,No
+0082-XYZ,Female,0,No,Yes,39,Two year,Yes,Bank transfer,74.95,2860.82,Yes
+0083-XYZ,Male,0,Yes,No,18,Month-to-month,No,Credit card,81.59,1485.25,Yes
+0084-XYZ,Female,0,No,No,19,One year,No,Mailed check,87.49,1654.47,Yes
+0085-XYZ,Male,0,No,No,36,Two year,No,Mailed check,44.82,1518.15,Yes
+0086-XYZ,Male,0,No,No,55,One year,Yes,Electronic check,20.98,1110.77,No
+0087-XYZ,Female,1,Yes,No,69,Two year,Yes,Mailed check,90.9,6251.25,No
+0088-XYZ,Male,0,Yes,Yes,47,Month-to-month,Yes,Mailed check,72.49,3501.62,No
+0089-XYZ,Female,0,Yes,No,49,Month-to-month,No,Electronic check,101.94,5022.86,Yes
+0090-XYZ,Female,0,No,Yes,33,Month-to-month,Yes,Bank transfer,100.5,3249.6,Yes
+0091-XYZ,Female,0,No,No,21,One year,Yes,Credit card,102.65,2179.87,Yes
+0092-XYZ,Female,0,Yes,No,22,Two year,No,Credit card,67.54,1408.5,Yes
+0093-XYZ,Female,0,No,No,48,Month-to-month,Yes,Bank transfer,52.7,2583.52,Yes
+0094-XYZ,Female,0,No,No,37,One year,No,Electronic check,97.57,3586.63,No
+0095-XYZ,Female,0,No,Yes,15,Month-to-month,No,Bank transfer,64.23,958.72,No
+0096-XYZ,Female,0,No,Yes,35,One year,No,Mailed check,37.98,1395.5,No
+0097-XYZ,Female,0,No,Yes,71,Month-to-month,Yes,Electronic check,103.79,7304.55,Yes
+0098-XYZ,Female,0,Yes,Yes,32,Two year,Yes,Electronic check,106.49,3337.85,No
+0099-XYZ,Female,0,No,No,11,One year,No,Electronic check,65.7,693.5,Yes
+0100-XYZ,Male,0,Yes,No,10,Month-to-month,No,Credit card,27.42,326.1,Yes
+0101-XYZ,Male,0,No,Yes,57,Month-to-month,No,Bank transfer,58.01,3230.43,Yes
+0102-XYZ,Female,1,Yes,No,25,Month-to-month,Yes,Electronic check,98.75,2327.06,No
+0103-XYZ,Female,0,No,No,2,Month-to-month,No,Electronic check,108.37,194.19,No
+0104-XYZ,Female,0,Yes,No,64,Month-to-month,No,Electronic check,39.94,2583.77,Yes
+0105-XYZ,Female,0,No,No,35,Two year,No,Bank transfer,26.56,989.73,No
+0106-XYZ,Female,0,Yes,Yes,7,One year,No,Credit card,105.98,718.7,No
+0107-XYZ,Female,0,No,No,18,One year,No,Mailed check,58.16,1026.34,Yes
+0108-XYZ,Female,0,Yes,No,67,Month-to-month,No,Credit card,73.09,4954.9,No
+0109-XYZ,Female,1,No,No,42,Two year,Yes,Electronic check,114.87,4731.07,No
+0110-XYZ,Male,0,Yes,Yes,39,One year,Yes,Credit card,26.52,1014.98,No
+0111-XYZ,Female,0,Yes,No,41,Month-to-month,Yes,Credit card,83.54,3434.46,Yes
+0112-XYZ,Male,0,No,Yes,24,One year,Yes,Mailed check,27.26,676.76,No
+0113-XYZ,Female,0,No,Yes,60,One year,Yes,Bank transfer,56.8,3382.27,No
+0114-XYZ,Female,0,Yes,No,46,Month-to-month,Yes,Bank transfer,98.77,4545.32,No
+0115-XYZ,Male,1,No,No,19,Month-to-month,Yes,Credit card,62.48,1062.71,Yes
+0116-XYZ,Female,0,Yes,No,68,Month-to-month,Yes,Credit card,117.72,7972.31,No
+0117-XYZ,Male,1,Yes,Yes,42,Month-to-month,No,Bank transfer,74.79,3163.76,No
+0118-XYZ,Female,1,Yes,No,32,Two year,No,Bank transfer,51.47,1598.05,No
+0119-XYZ,Female,0,No,Yes,39,Two year,Yes,Mailed check,41.57,1624.21,No
+0120-XYZ,Male,0,Yes,Yes,36,One year,No,Electronic check,54.35,1978.98,Yes
+0121-XYZ,Female,0,Yes,No,36,Month-to-month,Yes,Credit card,56.51,2017.17,No
+0122-XYZ,Male,0,No,No,3,Month-to-month,Yes,Bank transfer,26.73,88.73,Yes
+0123-XYZ,Female,0,No,No,8,One year,Yes,Credit card,56.22,401.61,Yes
+0124-XYZ,Male,0,No,No,70,One year,Yes,Credit card,65.5,4574.35,No
+0125-XYZ,Male,0,No,No,41,Month-to-month,No,Bank transfer,90.83,3754.47,Yes
+0126-XYZ,Female,0,Yes,No,68,One year,No,Mailed check,84.36,5744.29,No
+0127-XYZ,Female,0,Yes,Yes,13,Two year,Yes,Credit card,89.46,1133.64,No
+0128-XYZ,Male,0,Yes,No,49,Month-to-month,Yes,Mailed check,20.82,1031.37,Yes
+0129-XYZ,Female,0,Yes,No,60,Month-to-month,Yes,Bank transfer,41.33,2515.61,No
+0130-XYZ,Female,0,No,Yes,2,Two year,Yes,Electronic check,84.85,67.19,Yes
+0131-XYZ,Female,0,Yes,No,60,Month-to-month,Yes,Electronic check,67.43,4103.81,Yes
+0132-XYZ,Male,0,Yes,No,5,Month-to-month,Yes,Credit card,20.52,85.79,Yes
+0133-XYZ,Male,0,No,Yes,44,Month-to-month,No,Bank transfer,98.84,4370.26,No
+0134-XYZ,Male,1,Yes,Yes,27,Month-to-month,No,Mailed check,95.74,2644.72,No
+0135-XYZ,Male,0,Yes,No,32,Two year,Yes,Credit card,73.75,2291.26,No
+0136-XYZ,Male,0,Yes,Yes,21,One year,No,Bank transfer,26.51,521.31,No
+0137-XYZ,Male,0,Yes,No,8,Month-to-month,Yes,Bank transfer,95.12,746.52,Yes
+0138-XYZ,Male,0,Yes,No,50,Two year,Yes,Mailed check,77.2,3821.01,No
+0139-XYZ,Male,0,Yes,No,67,Two year,Yes,Credit card,96.63,6561.1,No
+0140-XYZ,Male,0,No,No,44,Two year,No,Bank transfer,93.67,4078.69,No
+0141-XYZ,Female,1,No,No,58,Month-to-month,No,Bank transfer,98.69,5696.49,Yes
+0142-XYZ,Male,0,Yes,No,3,Month-to-month,No,Bank transfer,70.76,222.51,Yes
+0143-XYZ,Female,0,Yes,No,70,Two year,Yes,Mailed check,33.75,2302.52,No
+0144-XYZ,Female,0,No,No,2,Two year,No,Credit card,85.77,151.76,Yes
+0145-XYZ,Female,0,Yes,Yes,44,Month-to-month,Yes,Credit card,80.81,3571.36,Yes
+0146-XYZ,Male,1,Yes,No,2,Month-to-month,No,Credit card,92.74,168.84,Yes
+0147-XYZ,Male,1,Yes,No,35,Month-to-month,Yes,Credit card,36.65,1278.02,No
+0148-XYZ,Male,0,No,No,30,Two year,Yes,Electronic check,39.11,1146.76,No
+0149-XYZ,Male,0,Yes,No,8,One year,Yes,Electronic check,107.26,782.36,Yes
+0150-XYZ,Female,0,No,No,22,Month-to-month,No,Credit card,93.5,2073.03,No
+0151-XYZ,Male,0,Yes,No,44,Month-to-month,Yes,Mailed check,109.01,4884.03,Yes
+0152-XYZ,Male,1,No,No,58,One year,No,Electronic check,94.35,5473.46,No
+0153-XYZ,Male,0,No,No,36,Two year,Yes,Bank transfer,78.52,2838.03,No
+0154-XYZ,Male,0,Yes,No,69,Month-to-month,No,Electronic check,84.11,5837.88,Yes
+0155-XYZ,Male,0,No,No,31,Two year,No,Bank transfer,107.13,3257.7,No
+0156-XYZ,Female,1,Yes,No,47,Two year,No,Credit card,76.72,3691.11,No
+0157-XYZ,Male,0,No,Yes,55,Month-to-month,Yes,Electronic check,81.97,4518.71,Yes
+0158-XYZ,Female,0,Yes,No,62,One year,Yes,Mailed check,35.33,2272.35,No
+0159-XYZ,Male,1,Yes,No,30,Month-to-month,Yes,Electronic check,66.44,1956.68,No
+0160-XYZ,Female,0,No,Yes,55,Two year,No,Electronic check,90.21,5052.28,No
+0161-XYZ,Male,0,Yes,No,16,One year,Yes,Electronic check,46.55,783.6,No
+0162-XYZ,Male,1,Yes,Yes,12,One year,Yes,Credit card,39.82,505.5,Yes
+0163-XYZ,Female,1,No,No,17,Two year,Yes,Mailed check,50.76,874.54,No
+0164-XYZ,Female,0,Yes,No,16,Month-to-month,Yes,Electronic check,43.67,686.25,Yes
+0165-XYZ,Female,0,Yes,Yes,12,Two year,No,Mailed check,41.06,552.76,No
+0166-XYZ,Male,0,No,No,8,One year,Yes,Credit card,61.64,500.1,No
+0167-XYZ,Female,0,No,No,3,Month-to-month,No,Bank transfer,108.97,228.55,Yes
+0168-XYZ,Male,0,Yes,No,16,One year,Yes,Electronic check,69.69,1059.21,Yes
+0169-XYZ,Male,0,Yes,Yes,30,Two year,Yes,Mailed check,38.42,1143.19,No
+0170-XYZ,Female,0,No,Yes,23,Month-to-month,Yes,Mailed check,27.54,648.99,Yes
+0171-XYZ,Female,0,No,No,5,Two year,Yes,Credit card,88.22,438.29,No
+0172-XYZ,Male,0,Yes,No,65,Two year,Yes,Electronic check,57.51,3799.38,Yes
+0173-XYZ,Male,0,No,No,30,Month-to-month,No,Bank transfer,100.54,2918.63,No
+0174-XYZ,Female,0,Yes,Yes,21,Two year,Yes,Mailed check,84.63,1784.45,No
+0175-XYZ,Female,0,Yes,No,70,Month-to-month,No,Electronic check,98.03,6771.32,Yes
+0176-XYZ,Female,0,Yes,No,22,Month-to-month,Yes,Bank transfer,46.65,1064.3,Yes
+0177-XYZ,Male,0,Yes,No,32,Month-to-month,Yes,Mailed check,87.85,2806.51,Yes
+0178-XYZ,Male,1,Yes,Yes,33,Two year,No,Mailed check,45.88,1534.96,No
+0179-XYZ,Male,0,No,No,16,One year,Yes,Bank transfer,112.03,1749.27,No
+0180-XYZ,Male,0,No,No,38,Month-to-month,Yes,Bank transfer,82.36,3193.83,Yes
+0181-XYZ,Male,0,No,No,14,Month-to-month,Yes,Credit card,51.8,777.32,No
+0182-XYZ,Male,0,No,No,36,One year,Yes,Electronic check,46.41,1700.02,No
+0183-XYZ,Female,0,Yes,No,23,Month-to-month,No,Electronic check,38.71,883.87,Yes
+0184-XYZ,Male,0,Yes,No,66,Two year,Yes,Credit card,88.07,5841.93,Yes
+0185-XYZ,Male,0,Yes,Yes,2,Two year,No,Mailed check,41.43,47.52,No
+0186-XYZ,Male,0,Yes,No,65,One year,No,Bank transfer,78.34,5134.86,No
+0187-XYZ,Female,0,No,No,67,Two year,Yes,Bank transfer,45.93,3160.07,No
+0188-XYZ,Male,0,Yes,Yes,52,Month-to-month,No,Bank transfer,84.87,4466.92,No
+0189-XYZ,Male,0,Yes,No,62,Two year,Yes,Mailed check,99.86,6155.09,No
+0190-XYZ,Female,0,No,No,23,One year,No,Bank transfer,96.25,2231.74,No
+0191-XYZ,Male,0,No,Yes,26,One year,Yes,Bank transfer,94.56,2393.99,No
+0192-XYZ,Male,1,No,No,68,Month-to-month,No,Credit card,38.4,2639.6,No
+0193-XYZ,Male,0,No,No,55,Two year,Yes,Mailed check,28.66,1598.93,No
+0194-XYZ,Male,0,Yes,No,6,Month-to-month,Yes,Electronic check,88.5,437.49,Yes
+0195-XYZ,Male,0,Yes,Yes,35,Month-to-month,No,Credit card,56.1,1905.34,Yes
+0196-XYZ,Female,1,No,No,22,Month-to-month,No,Credit card,62.37,1357.98,Yes
+0197-XYZ,Female,1,Yes,No,43,One year,Yes,Electronic check,23.05,976.22,No
+0198-XYZ,Female,0,Yes,No,15,One year,Yes,Credit card,45.44,621.1,No
+0199-XYZ,Male,0,Yes,No,60,One year,No,Mailed check,23.3,1417.47,No
+0200-XYZ,Male,0,No,Yes,12,Two year,No,Bank transfer,106.16,1286.5,No
+0201-XYZ,Male,0,Yes,No,49,Month-to-month,No,Mailed check,43.85,2139.08,No
+0202-XYZ,Female,0,No,Yes,42,One year,No,Electronic check,74.62,3096.21,No
+0203-XYZ,Male,0,Yes,Yes,38,Month-to-month,No,Electronic check,23.82,957.59,Yes
+0204-XYZ,Male,1,Yes,No,45,Two year,No,Credit card,85.35,3923.57,Yes
+0205-XYZ,Female,0,Yes,No,35,Two year,Yes,Mailed check,51.66,1783.81,No
+0206-XYZ,Male,0,No,No,30,One year,Yes,Mailed check,108.0,3209.27,No
+0207-XYZ,Female,0,Yes,No,30,One year,No,Electronic check,107.04,3235.63,Yes
+0208-XYZ,Female,0,No,No,6,Month-to-month,No,Mailed check,51.88,293.37,Yes
+0209-XYZ,Female,0,No,Yes,67,Month-to-month,Yes,Electronic check,108.29,7248.74,Yes
+0210-XYZ,Male,0,No,No,7,Two year,Yes,Mailed check,117.62,860.35,No
+0211-XYZ,Male,0,Yes,No,52,Month-to-month,No,Mailed check,100.89,5150.85,Yes
+0212-XYZ,Male,0,Yes,No,14,Month-to-month,Yes,Mailed check,102.8,1505.08,Yes
+0213-XYZ,Male,0,Yes,Yes,15,Month-to-month,Yes,Electronic check,44.4,669.68,No
+0214-XYZ,Male,0,Yes,No,21,Two year,Yes,Credit card,76.52,1586.28,No
+0215-XYZ,Male,1,No,No,35,Month-to-month,Yes,Mailed check,26.59,926.23,No
+0216-XYZ,Male,0,No,Yes,66,Month-to-month,Yes,Electronic check,29.3,1932.05,Yes
+0217-XYZ,Female,0,No,Yes,2,One year,Yes,Electronic check,117.89,149.22,Yes
+0218-XYZ,Male,1,Yes,No,35,Two year,Yes,Mailed check,52.01,1895.12,No
+0219-XYZ,Female,0,No,No,20,Month-to-month,No,Mailed check,93.32,1868.51,Yes
+0220-XYZ,Male,1,Yes,Yes,10,Month-to-month,Yes,Credit card,99.05,1012.68,Yes
+0221-XYZ,Male,0,No,No,25,Month-to-month,No,Electronic check,104.09,2649.73,No
+0222-XYZ,Male,1,Yes,Yes,66,Month-to-month,No,Electronic check,117.77,7721.6,No
+0223-XYZ,Female,0,Yes,No,25,Month-to-month,Yes,Bank transfer,43.67,1115.34,No
+0224-XYZ,Female,1,No,No,54,One year,No,Electronic check,23.95,1280.15,No
+0225-XYZ,Female,0,No,No,33,One year,Yes,Credit card,60.3,2032.13,No
+0226-XYZ,Female,1,No,No,36,One year,No,Bank transfer,32.75,1072.56,No
+0227-XYZ,Male,0,No,No,14,Month-to-month,Yes,Bank transfer,22.2,305.81,No
+0228-XYZ,Female,0,Yes,Yes,65,Two year,No,Bank transfer,55.32,3565.78,Yes
+0229-XYZ,Male,1,No,No,54,Month-to-month,No,Mailed check,96.81,5249.16,Yes
+0230-XYZ,Male,0,No,No,52,Two year,Yes,Mailed check,75.49,3948.76,No
+0231-XYZ,Female,0,No,No,3,One year,Yes,Electronic check,50.65,116.58,Yes
+0232-XYZ,Female,0,Yes,Yes,41,Month-to-month,No,Bank transfer,84.13,3413.54,Yes
+0233-XYZ,Female,0,Yes,Yes,6,One year,No,Credit card,42.74,250.89,Yes
+0234-XYZ,Female,0,No,Yes,25,Month-to-month,Yes,Mailed check,21.41,490.4,No
+0235-XYZ,Female,0,Yes,No,13,One year,No,Credit card,94.91,1275.89,No
+0236-XYZ,Female,1,No,No,8,Month-to-month,Yes,Credit card,81.13,630.55,Yes
+0237-XYZ,Female,0,Yes,No,21,Month-to-month,No,Mailed check,94.71,1843.47,Yes
+0238-XYZ,Female,0,Yes,No,68,Two year,Yes,Mailed check,23.82,1600.74,No
+0239-XYZ,Male,1,Yes,No,25,Month-to-month,No,Mailed check,102.04,2499.02,No
+0240-XYZ,Female,1,Yes,Yes,68,Two year,Yes,Mailed check,80.71,5406.96,No
+0241-XYZ,Female,0,No,No,45,Month-to-month,Yes,Bank transfer,75.21,3322.7,No
+0242-XYZ,Male,0,No,No,60,One year,Yes,Bank transfer,81.21,4878.2,Yes
+0243-XYZ,Female,0,No,No,12,One year,Yes,Bank transfer,104.71,1323.01,No
+0244-XYZ,Male,0,Yes,No,32,One year,Yes,Bank transfer,77.52,2496.29,No
+0245-XYZ,Male,0,No,No,13,Month-to-month,Yes,Electronic check,76.93,969.81,No
+0246-XYZ,Female,0,No,No,31,Month-to-month,No,Bank transfer,117.09,3652.48,Yes
+0247-XYZ,Male,0,No,Yes,20,Month-to-month,Yes,Mailed check,94.16,1860.24,No
+0248-XYZ,Male,0,Yes,Yes,18,Month-to-month,Yes,Credit card,63.34,1105.48,No
+0249-XYZ,Male,1,Yes,No,60,One year,Yes,Bank transfer,89.32,5301.78,No
+0250-XYZ,Male,1,Yes,No,63,Two year,Yes,Electronic check,58.14,3575.52,No
+0251-XYZ,Female,0,No,No,6,Two year,Yes,Mailed check,42.43,235.08,Yes
+0252-XYZ,Male,0,No,No,32,Two year,Yes,Credit card,78.49,2519.63,No
+0253-XYZ,Female,0,No,Yes,43,Two year,Yes,Credit card,110.96,4766.53,No
+0254-XYZ,Male,0,Yes,Yes,2,One year,Yes,Bank transfer,111.06,201.31,No
+0255-XYZ,Male,0,Yes,No,60,Month-to-month,Yes,Credit card,53.51,3163.12,No
+0256-XYZ,Male,0,No,No,23,Two year,Yes,Bank transfer,71.71,1679.8,Yes
+0257-XYZ,Male,1,Yes,Yes,31,One year,Yes,Bank transfer,40.74,1197.09,No
+0258-XYZ,Female,0,Yes,No,5,One year,Yes,Mailed check,117.57,626.66,Yes
+0259-XYZ,Female,1,Yes,Yes,34,Month-to-month,No,Mailed check,116.15,3898.97,Yes
+0260-XYZ,Male,0,Yes,No,10,Month-to-month,Yes,Electronic check,83.65,798.9,Yes
+0261-XYZ,Male,0,No,Yes,2,Month-to-month,No,Mailed check,98.83,124.33,Yes
+0262-XYZ,Female,0,Yes,No,11,Two year,Yes,Mailed check,90.08,965.81,Yes
+0263-XYZ,Male,1,Yes,No,50,One year,No,Bank transfer,78.13,3955.24,No
+0264-XYZ,Male,1,Yes,No,31,Month-to-month,No,Mailed check,25.23,807.85,Yes
+0265-XYZ,Male,0,Yes,Yes,56,Two year,Yes,Bank transfer,64.57,3664.67,No
+0266-XYZ,Female,0,No,Yes,9,Month-to-month,No,Bank transfer,86.13,801.27,Yes
+0267-XYZ,Female,0,No,No,21,Month-to-month,Yes,Mailed check,86.4,1759.18,No
+0268-XYZ,Female,0,Yes,No,28,Month-to-month,Yes,Electronic check,56.57,1567.31,Yes
+0269-XYZ,Male,1,Yes,No,62,One year,No,Electronic check,112.29,6922.71,No
+0270-XYZ,Male,0,Yes,Yes,7,Two year,No,Credit card,36.4,321.34,No
+0271-XYZ,Female,0,Yes,No,16,Month-to-month,Yes,Credit card,69.04,1044.72,No
+0272-XYZ,Female,0,Yes,No,4,Two year,Yes,Mailed check,87.71,395.51,Yes
+0273-XYZ,Female,1,Yes,No,4,Month-to-month,Yes,Electronic check,88.32,397.92,No
+0274-XYZ,Female,0,No,Yes,40,Two year,Yes,Bank transfer,83.57,3434.15,No
+0275-XYZ,Male,0,Yes,No,17,Two year,No,Credit card,46.98,778.15,No
+0276-XYZ,Female,0,No,Yes,52,Two year,Yes,Bank transfer,35.31,1871.64,Yes
+0277-XYZ,Male,0,No,Yes,52,Month-to-month,Yes,Credit card,82.32,4394.83,Yes
+0278-XYZ,Female,0,Yes,No,36,Two year,Yes,Mailed check,78.73,2803.46,No
+0279-XYZ,Male,0,No,Yes,38,One year,Yes,Electronic check,37.58,1351.17,No
+0280-XYZ,Female,1,No,No,50,Month-to-month,Yes,Credit card,89.1,4361.18,Yes
+0281-XYZ,Female,0,No,No,63,Two year,No,Electronic check,64.61,4105.87,No
+0282-XYZ,Female,1,No,No,63,Month-to-month,No,Bank transfer,85.44,5288.6,No
+0283-XYZ,Female,1,No,No,62,Two year,No,Mailed check,102.06,6309.23,No
+0284-XYZ,Male,0,No,Yes,7,Month-to-month,Yes,Electronic check,36.63,278.3,No
+0285-XYZ,Female,0,Yes,No,27,One year,No,Mailed check,21.88,599.92,No
+0286-XYZ,Male,1,No,No,14,One year,No,Electronic check,96.35,1370.2,No
+0287-XYZ,Male,0,No,Yes,71,Month-to-month,No,Bank transfer,79.75,5673.39,Yes
+0288-XYZ,Male,0,No,No,5,Month-to-month,Yes,Bank transfer,88.56,506.77,Yes
+0289-XYZ,Male,0,Yes,Yes,55,Month-to-month,Yes,Mailed check,102.14,5570.04,No
+0290-XYZ,Female,0,No,Yes,2,Month-to-month,Yes,Bank transfer,98.68,163.5,Yes
+0291-XYZ,Male,1,Yes,No,62,Month-to-month,Yes,Credit card,114.17,7039.92,Yes
+0292-XYZ,Male,0,No,Yes,21,One year,Yes,Electronic check,72.52,1564.46,No
+0293-XYZ,Male,0,Yes,No,21,Month-to-month,Yes,Bank transfer,67.87,1470.34,No
+0294-XYZ,Female,0,Yes,No,10,Month-to-month,Yes,Credit card,59.38,616.41,Yes
+0295-XYZ,Female,0,No,No,58,One year,No,Mailed check,35.06,2092.75,No
+0296-XYZ,Female,0,No,Yes,39,Month-to-month,Yes,Credit card,76.12,2909.6,Yes
+0297-XYZ,Female,0,Yes,Yes,5,Two year,Yes,Mailed check,47.15,319.1,No
+0298-XYZ,Male,0,No,Yes,65,Two year,No,Mailed check,110.29,7244.89,No
+0299-XYZ,Male,0,Yes,No,13,One year,No,Electronic check,77.15,1039.77,Yes
+0300-XYZ,Female,0,Yes,No,53,One year,No,Electronic check,78.1,4228.3,No
+0301-XYZ,Male,0,Yes,Yes,45,Two year,No,Credit card,54.78,2382.39,No
+0302-XYZ,Male,1,Yes,No,32,Month-to-month,Yes,Electronic check,25.09,776.82,No
+0303-XYZ,Male,0,Yes,Yes,36,Month-to-month,No,Electronic check,23.11,795.23,No
+0304-XYZ,Female,0,No,No,60,Month-to-month,Yes,Electronic check,61.49,3725.28,No
+0305-XYZ,Female,1,Yes,No,11,Two year,Yes,Credit card,28.29,258.65,No
+0306-XYZ,Male,0,Yes,No,63,Month-to-month,Yes,Bank transfer,79.47,5044.55,Yes
+0307-XYZ,Female,0,No,No,21,One year,Yes,Electronic check,106.34,2301.57,No
+0308-XYZ,Female,0,Yes,No,52,Two year,Yes,Electronic check,106.53,5574.09,Yes
+0309-XYZ,Female,0,No,No,55,Two year,No,Credit card,84.59,4666.44,No
+0310-XYZ,Female,0,No,No,26,One year,No,Bank transfer,40.7,1008.83,No
+0311-XYZ,Female,0,No,Yes,68,Month-to-month,Yes,Electronic check,104.57,7068.67,No
+0312-XYZ,Male,0,Yes,No,34,Two year,Yes,Mailed check,106.84,3694.94,No
+0313-XYZ,Female,0,Yes,No,52,One year,No,Credit card,39.27,2081.11,No
+0314-XYZ,Male,0,Yes,No,52,Month-to-month,No,Electronic check,92.27,4795.97,Yes
+0315-XYZ,Male,0,No,No,29,Month-to-month,Yes,Electronic check,48.08,1373.39,Yes
+0316-XYZ,Female,0,Yes,No,38,Two year,No,Mailed check,98.66,3647.74,No
+0317-XYZ,Male,0,No,No,42,One year,Yes,Mailed check,117.73,4891.09,No
+0318-XYZ,Male,0,Yes,No,21,Two year,Yes,Credit card,22.94,577.36,No
+0319-XYZ,Male,1,No,Yes,42,Two year,No,Credit card,107.94,4469.54,No
+0320-XYZ,Female,0,Yes,Yes,13,One year,Yes,Mailed check,81.02,1062.71,Yes
+0321-XYZ,Female,0,Yes,Yes,64,One year,Yes,Credit card,115.39,7435.43,No
+0322-XYZ,Male,0,Yes,Yes,17,Month-to-month,No,Mailed check,65.57,1051.96,No
+0323-XYZ,Female,0,No,No,9,Month-to-month,No,Electronic check,103.04,936.63,Yes
+0324-XYZ,Female,0,No,Yes,41,Month-to-month,Yes,Mailed check,26.11,1117.6,No
+0325-XYZ,Female,1,Yes,No,1,Two year,Yes,Mailed check,52.86,53.48,No
+0326-XYZ,Female,1,Yes,No,2,One year,Yes,Bank transfer,26.57,196.56,No
+0327-XYZ,Male,0,No,Yes,60,Two year,No,Mailed check,115.58,6851.59,No
+0328-XYZ,Male,1,No,No,48,Month-to-month,Yes,Mailed check,100.06,4855.98,No
+0329-XYZ,Female,0,No,No,29,One year,Yes,Bank transfer,103.55,2994.3,No
+0330-XYZ,Female,0,Yes,No,10,One year,No,Credit card,111.92,1157.8,No
+0331-XYZ,Male,0,No,No,58,One year,Yes,Bank transfer,28.34,1665.79,No
+0332-XYZ,Male,1,Yes,No,60,One year,Yes,Electronic check,57.79,3430.66,No
+0333-XYZ,Female,0,No,Yes,21,Month-to-month,Yes,Bank transfer,26.96,577.64,No
+0334-XYZ,Male,0,Yes,No,28,One year,No,Electronic check,40.66,1045.52,No
+0335-XYZ,Female,0,No,No,34,Month-to-month,Yes,Credit card,42.48,1474.41,No
+0336-XYZ,Female,0,No,No,8,Month-to-month,Yes,Bank transfer,65.97,542.69,No
+0337-XYZ,Male,0,No,Yes,59,Month-to-month,No,Bank transfer,46.32,2764.76,No
+0338-XYZ,Male,0,No,No,49,One year,Yes,Credit card,29.9,1517.8,No
+0339-XYZ,Female,0,No,Yes,17,Two year,Yes,Electronic check,36.41,637.42,No
+0340-XYZ,Female,0,Yes,Yes,60,One year,Yes,Bank transfer,34.43,2073.38,No
+0341-XYZ,Male,0,No,Yes,45,One year,Yes,Electronic check,115.36,5147.22,Yes
+0342-XYZ,Female,0,No,No,69,One year,Yes,Bank transfer,94.41,6478.72,No
+0343-XYZ,Male,0,No,No,32,One year,Yes,Mailed check,114.84,3734.24,No
+0344-XYZ,Female,0,Yes,No,44,Month-to-month,Yes,Bank transfer,63.09,2847.98,No
+0345-XYZ,Male,1,No,No,65,Month-to-month,Yes,Credit card,47.28,3061.3,Yes
+0346-XYZ,Male,0,Yes,No,8,Month-to-month,No,Credit card,98.23,788.16,Yes
+0347-XYZ,Male,0,No,No,43,Month-to-month,No,Electronic check,51.97,2189.6,No
+0348-XYZ,Female,0,No,No,1,Month-to-month,No,Bank transfer,49.34,107.98,Yes
+0349-XYZ,Female,0,Yes,No,51,Month-to-month,No,Electronic check,42.79,2215.34,No
+0350-XYZ,Male,0,No,Yes,24,Month-to-month,Yes,Electronic check,32.71,882.07,Yes
+0351-XYZ,Female,0,Yes,No,24,Two year,No,Mailed check,45.13,1039.28,No
+0352-XYZ,Male,0,Yes,No,17,Month-to-month,Yes,Mailed check,54.82,913.06,Yes
+0353-XYZ,Male,0,No,No,5,Month-to-month,No,Credit card,86.05,441.83,Yes
+0354-XYZ,Female,0,Yes,No,20,Month-to-month,No,Electronic check,26.13,554.95,No
+0355-XYZ,Female,0,No,No,21,One year,No,Credit card,40.63,842.44,No
+0356-XYZ,Male,0,No,No,58,Month-to-month,No,Bank transfer,99.28,5714.84,Yes
+0357-XYZ,Female,0,Yes,No,31,Month-to-month,Yes,Electronic check,34.4,1110.42,Yes
+0358-XYZ,Female,0,Yes,No,11,One year,Yes,Electronic check,53.58,625.43,Yes
+0359-XYZ,Male,0,Yes,Yes,52,Month-to-month,Yes,Bank transfer,104.74,5400.49,Yes
+0360-XYZ,Male,0,Yes,No,15,Month-to-month,Yes,Bank transfer,35.18,595.51,No
+0361-XYZ,Female,0,No,No,7,Month-to-month,Yes,Credit card,28.11,255.27,Yes
+0362-XYZ,Male,0,No,Yes,28,Month-to-month,No,Credit card,67.48,1896.29,No
+0363-XYZ,Male,0,Yes,No,51,Month-to-month,No,Bank transfer,49.64,2535.47,Yes
+0364-XYZ,Female,0,No,No,58,Month-to-month,Yes,Credit card,75.21,4390.12,No
+0365-XYZ,Male,1,No,No,5,Two year,No,Bank transfer,98.77,450.78,Yes
+0366-XYZ,Male,1,No,Yes,5,One year,No,Electronic check,33.44,168.7,Yes
+0367-XYZ,Female,0,No,No,8,One year,No,Electronic check,76.91,507.65,No
+0368-XYZ,Female,0,Yes,No,64,Month-to-month,No,Mailed check,69.54,4494.37,No
+0369-XYZ,Male,0,Yes,Yes,10,Two year,Yes,Electronic check,34.12,263.12,Yes
+0370-XYZ,Male,0,No,Yes,38,Month-to-month,No,Bank transfer,81.15,3158.94,Yes
+0371-XYZ,Female,0,Yes,No,8,Month-to-month,No,Credit card,46.82,358.03,No
+0372-XYZ,Female,0,Yes,Yes,25,One year,Yes,Mailed check,67.81,1684.61,No
+0373-XYZ,Female,0,Yes,No,66,Month-to-month,Yes,Credit card,28.06,1820.75,No
+0374-XYZ,Female,0,No,No,50,Month-to-month,No,Bank transfer,65.04,3237.56,No
+0375-XYZ,Male,0,No,Yes,67,One year,Yes,Electronic check,50.03,3423.17,No
+0376-XYZ,Female,0,No,No,49,Two year,No,Mailed check,100.59,4804.68,No
+0377-XYZ,Female,0,Yes,No,36,Month-to-month,No,Bank transfer,25.58,984.87,Yes
+0378-XYZ,Male,0,No,No,68,One year,Yes,Mailed check,61.02,4166.5,No
+0379-XYZ,Female,0,No,No,41,Two year,Yes,Mailed check,64.93,2601.63,No
+0380-XYZ,Male,0,Yes,No,62,Month-to-month,No,Electronic check,91.05,5591.37,Yes
+0381-XYZ,Female,0,No,Yes,10,Month-to-month,Yes,Bank transfer,76.28,846.62,Yes
+0382-XYZ,Female,1,No,No,21,Month-to-month,Yes,Credit card,85.39,1745.85,No
+0383-XYZ,Female,0,Yes,No,36,Month-to-month,Yes,Mailed check,96.15,3403.76,Yes
+0384-XYZ,Male,0,Yes,Yes,12,Month-to-month,Yes,Mailed check,104.5,1310.82,No
+0385-XYZ,Male,0,Yes,No,2,Two year,No,Credit card,50.76,118.45,Yes
+0386-XYZ,Female,0,No,No,13,One year,Yes,Bank transfer,72.73,898.54,Yes
+0387-XYZ,Male,0,No,No,53,One year,No,Mailed check,102.33,5434.35,Yes
+0388-XYZ,Male,0,No,Yes,32,Month-to-month,Yes,Mailed check,116.97,3691.63,Yes
+0389-XYZ,Male,0,Yes,No,16,Two year,Yes,Mailed check,107.17,1769.81,Yes
+0390-XYZ,Male,0,Yes,No,32,Two year,No,Bank transfer,56.4,1857.99,Yes
+0391-XYZ,Male,0,No,Yes,32,Two year,No,Bank transfer,39.13,1278.64,No
+0392-XYZ,Male,0,No,Yes,11,Month-to-month,Yes,Credit card,67.96,765.65,No
+0393-XYZ,Female,0,Yes,Yes,10,One year,Yes,Bank transfer,92.68,1014.87,No
+0394-XYZ,Female,0,Yes,No,15,Month-to-month,Yes,Bank transfer,68.27,1024.06,Yes
+0395-XYZ,Male,0,Yes,No,17,Month-to-month,Yes,Electronic check,67.35,1085.89,Yes
+0396-XYZ,Female,1,Yes,No,40,Month-to-month,No,Credit card,102.15,4108.34,Yes
+0397-XYZ,Female,0,No,No,18,One year,Yes,Mailed check,55.42,1101.82,No
+0398-XYZ,Female,0,Yes,Yes,55,One year,Yes,Bank transfer,104.26,5683.56,No
+0399-XYZ,Female,0,No,No,25,Month-to-month,Yes,Mailed check,59.87,1478.6,No
+0400-XYZ,Male,0,No,No,59,Month-to-month,No,Mailed check,52.17,3098.67,Yes
+0401-XYZ,Female,0,No,Yes,22,Month-to-month,No,Electronic check,64.49,1416.11,Yes
+0402-XYZ,Female,0,Yes,Yes,30,Month-to-month,Yes,Bank transfer,94.72,2792.48,Yes
+0403-XYZ,Male,0,Yes,Yes,44,Month-to-month,No,Credit card,32.35,1479.41,No
+0404-XYZ,Male,0,Yes,No,32,Month-to-month,Yes,Bank transfer,39.25,1371.97,No
+0405-XYZ,Female,0,Yes,No,51,Two year,Yes,Mailed check,113.24,5785.13,No
+0406-XYZ,Female,0,No,No,46,Month-to-month,No,Credit card,37.2,1665.91,Yes
+0407-XYZ,Female,0,Yes,No,21,Month-to-month,No,Bank transfer,75.64,1510.93,Yes
+0408-XYZ,Female,0,Yes,No,32,Month-to-month,No,Mailed check,76.77,2469.63,No
+0409-XYZ,Female,0,No,No,39,Two year,Yes,Mailed check,67.98,2706.54,No
+0410-XYZ,Female,0,Yes,No,12,One year,Yes,Electronic check,83.19,1021.98,Yes
+0411-XYZ,Male,0,No,Yes,47,One year,No,Electronic check,42.52,1998.46,Yes
+0412-XYZ,Female,1,No,Yes,18,Month-to-month,Yes,Electronic check,74.16,1305.43,Yes
+0413-XYZ,Female,0,No,Yes,21,One year,Yes,Mailed check,56.47,1131.32,No
+0414-XYZ,Male,0,No,Yes,13,Month-to-month,Yes,Bank transfer,84.84,1144.7,No
+0415-XYZ,Male,0,No,No,21,One year,No,Electronic check,33.84,756.33,Yes
+0416-XYZ,Male,0,No,No,8,Two year,Yes,Bank transfer,75.95,530.28,Yes
+0417-XYZ,Male,0,No,Yes,46,One year,Yes,Electronic check,38.16,1834.69,No
+0418-XYZ,Female,0,No,Yes,7,Two year,No,Credit card,47.31,359.85,No
+0419-XYZ,Female,0,Yes,No,23,One year,Yes,Credit card,41.43,1022.95,No
+0420-XYZ,Female,0,Yes,No,22,Month-to-month,Yes,Electronic check,37.92,767.09,No
+0421-XYZ,Female,0,Yes,No,22,Two year,Yes,Mailed check,100.92,2151.94,Yes
+0422-XYZ,Female,1,Yes,No,29,Month-to-month,Yes,Electronic check,48.0,1384.53,No
+0423-XYZ,Female,0,No,Yes,13,One year,Yes,Electronic check,110.86,1466.29,Yes
+0424-XYZ,Male,0,Yes,Yes,2,Month-to-month,Yes,Mailed check,115.05,319.92,No
+0425-XYZ,Female,0,No,No,29,Month-to-month,No,Credit card,75.98,2238.83,No
+0426-XYZ,Male,1,Yes,No,52,Month-to-month,Yes,Bank transfer,34.01,1756.6,No
+0427-XYZ,Male,0,Yes,Yes,27,Month-to-month,No,Electronic check,56.71,1479.74,No
+0428-XYZ,Female,0,Yes,No,50,Month-to-month,Yes,Mailed check,98.18,4970.39,Yes
+0429-XYZ,Male,1,No,No,23,One year,Yes,Electronic check,56.0,1239.86,No
+0430-XYZ,Female,1,Yes,No,44,Month-to-month,Yes,Mailed check,28.53,1336.64,No
+0431-XYZ,Male,0,No,No,22,Month-to-month,Yes,Bank transfer,74.56,1626.21,No
+0432-XYZ,Female,0,No,No,43,One year,No,Bank transfer,102.82,4500.87,Yes
+0433-XYZ,Male,0,Yes,No,37,Month-to-month,Yes,Credit card,98.0,3659.98,No
+0434-XYZ,Female,0,Yes,No,61,One year,Yes,Mailed check,37.16,2260.04,No
+0435-XYZ,Female,1,Yes,Yes,56,One year,No,Mailed check,85.93,4786.16,Yes
+0436-XYZ,Female,0,No,Yes,3,Two year,No,Credit card,41.61,107.78,Yes
+0437-XYZ,Female,0,Yes,No,63,One year,No,Credit card,41.38,2628.63,No
+0438-XYZ,Female,0,No,No,19,Month-to-month,Yes,Mailed check,105.66,2011.38,No
+0439-XYZ,Male,0,No,Yes,23,One year,No,Credit card,44.47,993.06,No
+0440-XYZ,Male,0,Yes,No,29,Month-to-month,Yes,Bank transfer,45.8,1319.87,No
+0441-XYZ,Male,0,Yes,No,30,Month-to-month,Yes,Electronic check,20.06,605.85,Yes
+0442-XYZ,Female,0,No,Yes,39,Two year,Yes,Bank transfer,105.33,4001.26,No
+0443-XYZ,Male,0,No,No,25,Month-to-month,Yes,Credit card,97.67,2464.77,Yes
+0444-XYZ,Female,0,No,No,8,Two year,Yes,Mailed check,81.48,602.84,Yes
+0445-XYZ,Female,0,Yes,No,58,Two year,Yes,Mailed check,93.53,5366.84,Yes
+0446-XYZ,Male,0,No,Yes,16,Two year,No,Bank transfer,34.9,474.04,Yes
+0447-XYZ,Male,0,Yes,No,1,Two year,Yes,Mailed check,64.92,20.0,No
+0448-XYZ,Female,0,No,No,5,Month-to-month,Yes,Credit card,54.42,204.33,Yes
+0449-XYZ,Male,0,No,No,3,Month-to-month,Yes,Bank transfer,29.19,52.12,Yes
+0450-XYZ,Female,0,Yes,No,65,One year,No,Mailed check,67.64,4494.31,No
+0451-XYZ,Female,0,No,No,4,Month-to-month,Yes,Electronic check,110.23,414.64,Yes
+0452-XYZ,Female,0,Yes,No,64,One year,Yes,Electronic check,23.93,1540.14,No
+0453-XYZ,Female,0,Yes,No,10,One year,No,Credit card,48.56,505.66,No
+0454-XYZ,Female,0,No,No,21,One year,No,Mailed check,40.34,853.67,No
+0455-XYZ,Male,0,Yes,Yes,46,Month-to-month,Yes,Credit card,43.34,1989.69,Yes
+0456-XYZ,Male,1,Yes,No,27,Month-to-month,No,Bank transfer,109.03,2883.95,No
+0457-XYZ,Female,0,No,No,66,Month-to-month,No,Electronic check,65.87,4420.02,Yes
+0458-XYZ,Female,0,Yes,No,41,Month-to-month,No,Bank transfer,65.7,2783.95,Yes
+0459-XYZ,Male,0,Yes,Yes,13,Two year,Yes,Mailed check,94.54,1144.84,Yes
+0460-XYZ,Male,0,Yes,No,9,Month-to-month,No,Credit card,35.14,265.06,Yes
+0461-XYZ,Female,0,No,No,36,Month-to-month,Yes,Credit card,67.75,2425.08,Yes
+0462-XYZ,Male,0,Yes,No,58,Month-to-month,Yes,Credit card,62.14,3555.81,No
+0463-XYZ,Female,0,No,Yes,54,One year,Yes,Bank transfer,78.5,4264.15,No
+0464-XYZ,Male,0,No,No,12,One year,Yes,Electronic check,117.96,1379.07,No
+0465-XYZ,Female,0,Yes,No,14,Month-to-month,Yes,Bank transfer,95.41,1443.94,Yes
+0466-XYZ,Male,1,Yes,Yes,34,Month-to-month,No,Bank transfer,58.99,2065.22,Yes
+0467-XYZ,Female,0,Yes,No,53,Month-to-month,Yes,Mailed check,101.1,5368.94,No
+0468-XYZ,Male,1,No,No,20,Month-to-month,Yes,Mailed check,36.73,785.94,Yes
+0469-XYZ,Male,0,Yes,No,16,One year,Yes,Mailed check,22.99,423.06,No
+0470-XYZ,Female,0,Yes,No,70,One year,Yes,Electronic check,40.04,2774.32,No
+0471-XYZ,Male,1,Yes,No,56,Month-to-month,No,Electronic check,53.36,2947.37,Yes
+0472-XYZ,Female,0,Yes,No,58,Month-to-month,Yes,Mailed check,70.04,4066.05,No
+0473-XYZ,Male,0,Yes,No,4,Two year,Yes,Mailed check,80.28,364.21,Yes
+0474-XYZ,Female,0,No,No,4,Month-to-month,Yes,Electronic check,109.24,443.91,Yes
+0475-XYZ,Male,0,No,No,20,One year,Yes,Credit card,69.97,1320.46,Yes
+0476-XYZ,Female,0,Yes,No,10,Month-to-month,Yes,Electronic check,69.13,651.11,No
+0477-XYZ,Male,0,Yes,No,24,Month-to-month,No,Electronic check,24.92,594.47,Yes
+0478-XYZ,Female,0,Yes,No,26,Month-to-month,No,Electronic check,23.42,605.17,No
+0479-XYZ,Male,0,Yes,No,37,One year,Yes,Mailed check,74.01,2837.13,No
+0480-XYZ,Female,0,No,No,54,Two year,No,Credit card,62.94,3329.54,No
+0481-XYZ,Female,0,Yes,No,21,Month-to-month,No,Electronic check,102.24,2172.31,No
+0482-XYZ,Female,0,No,Yes,38,Month-to-month,No,Mailed check,35.75,1432.83,No
+0483-XYZ,Male,0,No,No,46,Month-to-month,Yes,Bank transfer,22.45,1146.14,No
+0484-XYZ,Female,0,Yes,Yes,4,Month-to-month,Yes,Bank transfer,64.01,235.8,Yes
+0485-XYZ,Male,0,No,No,60,Month-to-month,Yes,Electronic check,43.27,2620.95,Yes
+0486-XYZ,Female,1,No,No,57,Month-to-month,No,Bank transfer,24.86,1445.63,Yes
+0487-XYZ,Male,0,No,No,45,Two year,No,Credit card,91.01,4105.25,No
+0488-XYZ,Female,0,No,No,20,Month-to-month,Yes,Bank transfer,30.94,613.78,Yes
+0489-XYZ,Male,0,Yes,No,17,Month-to-month,Yes,Bank transfer,79.62,1375.26,No
+0490-XYZ,Male,0,Yes,No,71,Two year,No,Credit card,47.54,3248.93,No
+0491-XYZ,Female,0,No,Yes,4,Month-to-month,No,Electronic check,37.0,182.11,Yes
+0492-XYZ,Male,0,Yes,No,14,Two year,No,Electronic check,57.22,807.33,Yes
+0493-XYZ,Male,0,Yes,Yes,3,Month-to-month,No,Credit card,98.54,284.5,Yes
+0494-XYZ,Female,0,Yes,Yes,58,Two year,Yes,Credit card,58.43,3491.0,No
+0495-XYZ,Male,0,Yes,No,55,One year,Yes,Credit card,93.58,5112.9,No
+0496-XYZ,Male,1,Yes,No,4,Two year,No,Bank transfer,32.3,109.04,No
+0497-XYZ,Male,0,No,No,24,Two year,Yes,Credit card,95.73,2397.14,No
+0498-XYZ,Female,0,Yes,No,34,Month-to-month,Yes,Mailed check,43.22,1427.86,Yes
+0499-XYZ,Male,1,Yes,No,30,Two year,No,Bank transfer,86.38,2564.03,No
+0500-XYZ,Female,0,Yes,No,19,Month-to-month,Yes,Electronic check,75.45,1426.13,Yes

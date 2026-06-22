@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeML - AutoML Agentic Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Decorative Glow Orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-brain-circuit logo-icon"></i>
+                <h1>VibeML</h1>
+            </div>
+            <p class="subtitle">Autonomous AutoML Multi-Agent Assistant</p>
+            <div class="badge">Agents for Business Track</div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="grid-container">
+            <!-- Left Side: Controls & Upload -->
+            <section class="panel control-panel">
+                <h2><i class="fa-solid fa-sliders text-accent"></i> Input & Configuration</h2>
+                <p class="panel-desc">Upload your business tabular dataset and configure the agent execution.</p>
+
+                <!-- Dropzone -->
+                <div class="dropzone" id="dropzone">
+                    <input type="file" id="fileInput" accept=".csv" style="display: none;">
+                    <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+                    <p class="upload-text">Drag & drop CSV file or <span class="browse-link">browse</span></p>
+                    <p class="file-info" id="fileInfo">Max size: 50MB</p>
+                </div>
+
+                <!-- Parameters Form -->
+                <div class="form-group">
+                    <label for="targetInput">Target Column to Predict</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-crosshairs input-icon"></i>
+                        <input type="text" id="targetInput" placeholder="e.g. churn, sales, rating" disabled>
+                    </div>
+                    <small class="form-help">Provide the exact name of the column you want the model to predict.</small>
+                </div>
+
+                <button id="runBtn" class="btn btn-primary btn-block" disabled>
+                    <span class="btn-text">Initiate AutoML Agent Loop</span>
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </section>
+
+            <!-- Right Side: Agent Logs & Progress -->
+            <section class="panel console-panel">
+                <h2><i class="fa-solid fa-terminal text-accent-alt"></i> Agent Execution Stream</h2>
+                <p class="panel-desc">Watch the Data Profiler, ML Engineer, and Reporter collaborate in real-time.</p>
+
+                <!-- Status Progress bar -->
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="steps-indicator">
+                    <span class="step-indicator" id="step-profiler"><i class="fa-solid fa-chart-simple"></i> Profiler</span>
+                    <span class="step-indicator" id="step-engineer"><i class="fa-solid fa-gears"></i> Engineer</span>
+                    <span class="step-indicator" id="step-reporter"><i class="fa-solid fa-file-invoice"></i> Reporter</span>
+                </div>
+
+                <!-- Live Logs Console -->
+                <div class="console" id="console">
+                    <div class="console-line system-msg">> Console initialized. Ready to receive commands...</div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Bottom Section: Results (Initially Hidden) -->
+        <section class="panel results-panel hidden" id="resultsPanel">
+            <div class="results-header">
+                <h2><i class="fa-solid fa-square-poll-vertical text-accent"></i> Execution Analysis & Assets</h2>
+                <div class="results-actions">
+                    <a href="/api/download-model" class="btn btn-secondary" id="downloadModelBtn">
+                        <i class="fa-solid fa-download"></i> Download joblib Model
+                    </a>
+                </div>
+            </div>
+
+            <div class="results-grid">
+                <!-- Left: Markdown Report -->
+                <div class="report-box">
+                    <h3><i class="fa-solid fa-file-lines"></i> Compiled Insights Report</h3>
+                    <div class="markdown-body" id="reportContent">
+                        <!-- Rendered Markdown goes here -->
+                    </div>
+                </div>
+
+                <!-- Right: Visualization Charts -->
+                <div class="charts-box">
+                    <h3><i class="fa-solid fa-chart-line"></i> Evaluation Visualizations</h3>
+                    <div class="charts-gallery" id="chartsGallery">
+                        <!-- Dynamic Charts will load here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FontAwesome JS and Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>

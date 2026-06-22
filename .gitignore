@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+env/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials & Secrets
+*.key
+*.pem
+api_keys.txt
+
+# Large files
+*.joblib
+output/plots/
+output/*.png
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.cache/
+
+# Temp files
+*.tmp
+*.temp
