@@ -55,6 +55,9 @@ This project implements the following core concepts from the Kaggle AI Agents co
 | **Deployability** | Provided a lightweight Docker container configurations and local execution scripts. | `Dockerfile`, `main.py` |
 
 ---
+## 🌐 Live Demo
+Try it instantly without any setup:
+https://vibeml-agents-capstone.onrender.com
 
 ## ⚙️ Installation & Setup
 
