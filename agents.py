@@ -164,7 +164,7 @@ class VibeMLOrchestrator:
         profiler_config = ag.LocalAgentConfig(
             system_instructions=PROFILER_INSTRUCTIONS,
             mcp_servers=[self.mcp_server],
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             policies=[ag.hooks.policy.allow_all()]
         )
         
@@ -179,7 +179,7 @@ class VibeMLOrchestrator:
         ml_config = ag.LocalAgentConfig(
             system_instructions=ML_ENGINEER_INSTRUCTIONS,
             tools=[run_ml_training_code],
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             policies=[ag.hooks.policy.allow_all()]
         )
         
@@ -212,7 +212,7 @@ Use the code execution tool."""
         # 3. GENERATE REPORT
         reporter_config = ag.LocalAgentConfig(
             system_instructions=REPORTER_INSTRUCTIONS,
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             policies=[ag.hooks.policy.allow_all()]
         )
         
