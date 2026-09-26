@@ -85,6 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Run AutoML Pipeline
     runBtn.addEventListener("click", async () => {
         const targetColumn = targetInput.value.trim();
+        const demoCheckbox = document.getElementById("demoCheckbox");
+        const isDemo = demoCheckbox ? demoCheckbox.checked : false;
+
         if (!targetColumn) {
             addConsoleLine("Error: Target column name is required.", "error-msg");
             targetInput.focus();
@@ -94,6 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Lock UI controls
         targetInput.setAttribute("disabled", "true");
         runBtn.setAttribute("disabled", "true");
+        if (demoCheckbox) demoCheckbox.setAttribute("disabled", "true");
         resultsPanel.classList.add("hidden");
         
         // Reset indicators
@@ -103,12 +107,15 @@ document.addEventListener("DOMContentLoaded", () => {
         logIndex = 0;
 
         addConsoleLine(`Initiating AutoML loop. Target variable: '${targetColumn}'`, "system-msg");
+        if (isDemo) {
+            addConsoleLine("Demo Mode active: Simulating local agent pipeline (API-key free).", "system-msg");
+        }
 
         try {
             const response = await fetch("/api/analyze", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ filename: selectedFile.name, target: targetColumn })
+                body: JSON.stringify({ filename: selectedFile.name, target: targetColumn, demo: isDemo })
             });
 
             if (!response.ok) {
@@ -125,6 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
             addConsoleLine(`Pipeline Startup Error: ${error.message}`, "error-msg");
             targetInput.removeAttribute("disabled");
             runBtn.removeAttribute("disabled");
+            if (demoCheckbox) demoCheckbox.removeAttribute("disabled");
         }
     });
 
@@ -173,6 +181,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Unlock configuration UI
                 targetInput.removeAttribute("disabled");
                 runBtn.removeAttribute("disabled");
+                const demoCheckbox = document.getElementById("demoCheckbox");
+                if (demoCheckbox) demoCheckbox.removeAttribute("disabled");
 
             } else if (data.status === "failed") {
                 clearInterval(pollInterval);
@@ -180,6 +190,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 targetInput.removeAttribute("disabled");
                 runBtn.removeAttribute("disabled");
+                const demoCheckbox = document.getElementById("demoCheckbox");
+                if (demoCheckbox) demoCheckbox.removeAttribute("disabled");
             }
 
         } catch (error) {

@@ -1,0 +1,21 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,churn
+1,Female,0,Yes,No,24,Two year,Yes,Credit card (automatic),80.0,1920.0,No
+2,Male,0,No,No,12,Month-to-month,Yes,Electronic check,70.0,840.0,Yes
+3,Female,1,Yes,No,60,One year,No,Mailed check,90.0,5400.0,No
+4,Male,0,No,Yes,36,Two year,No,Bank transfer (automatic),60.0,2160.0,No
+5,Female,0,No,No,1,Month-to-month,Yes,Electronic check,50.0,50.0,Yes
+6,Male,1,Yes,Yes,48,One year,Yes,Credit card (automatic),100.0,4800.0,No
+7,Female,0,No,No,8,Month-to-month,No,Mailed check,45.0,360.0,Yes
+8,Male,0,Yes,No,72,Two year,Yes,Bank transfer (automatic),110.0,7920.0,No
+9,Female,0,No,No,3,Month-to-month,Yes,Electronic check,55.0,165.0,Yes
+10,Male,1,Yes,Yes,18,One year,No,Credit card (automatic),85.0,1530.0,No
+11,Female,0,No,No,20,Month-to-month,Yes,Electronic check,65.0,1300.0,Yes
+12,Male,0,Yes,No,50,Two year,No,Bank transfer (automatic),95.0,4750.0,No
+13,Female,1,No,Yes,5,Month-to-month,Yes,Mailed check,40.0,200.0,Yes
+14,Male,0,No,No,10,One year,No,Credit card (automatic),75.0,750.0,No
+15,Female,0,Yes,No,30,Two year,Yes,Electronic check,88.0,2640.0,No
+16,Male,0,No,No,15,Month-to-month,No,Bank transfer (automatic),72.0,1080.0,Yes
+17,Female,1,Yes,Yes,65,One year,Yes,Credit card (automatic),105.0,6825.0,No
+18,Male,0,No,No,2,Month-to-month,Yes,Mailed check,48.0,96.0,Yes
+19,Female,0,No,Yes,40,Two year,No,Electronic check,62.0,2480.0,No
+20,Male,0,Yes,No,55,One year,No,Bank transfer (automatic),92.0,5060.0,No
